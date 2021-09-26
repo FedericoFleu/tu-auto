@@ -1,0 +1,37 @@
+@import "colores";
+
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: auto;
+}
+
+h4 {
+    font-size: 27px;
+}
+
+.footer h4{
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: $color;
+}
+
+.icons .fab{
+    color: $color1;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+    font-size: 35px;
+}
+
+.icons .fab:hover{
+   transform: translateY(-15px);
+   transition: 1s;
+   cursor: pointer;
+}
+
+#copy {
+    font-size: 20px;
+}
+

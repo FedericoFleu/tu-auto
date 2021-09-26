@@ -1,0 +1,29 @@
+@import "colores";
+
+h3{
+    color: $color;
+    font-size: 20px;
+    margin: 8px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.card:hover{
+    box-shadow: 6px 6px 40px 6px $color5;
+}
+
+

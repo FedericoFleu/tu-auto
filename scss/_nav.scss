@@ -1,0 +1,77 @@
+@import "colores";
+
+.animacion1{
+    animation-duration: 0.5s;
+}
+
+.animacion2{
+    animation-duration: 1s;
+}
+
+.animacion3{
+    animation-duration: 2s;
+}
+
+.animacion4{
+    animation-duration: 3s;
+}
+
+.animacion5{
+    animation-duration: 4s;
+}
+
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    background-color: rgba(39, 28, 136, 0.425);
+}
+
+#navbarNav ul li::after{
+    content:"";
+    width: 0%;
+    height: 1px;
+    background: $color1;
+    display: block;
+    margin: auto;
+    transition: 0.4s;
+}
+
+#navbarNav ul li:hover::after{
+    width: 70%;
+}
+
+.navbar-nav li a {
+    color: $color1 !important;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.navbar-toggler-icon{
+    font-size: 20px;
+}
+
+h5 {
+    color: $color1;
+    margin: 10px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+h5:hover {
+    transform: translateY(-10px);
+}
+
+b{
+    color: $color;
+    font-weight: 600;
+}
+
+.logoAuto{
+    font-size: 40px;
+    color: $color1;
+}
+
+.logoAuto:hover{
+    transform: translateY(-10px);
+}

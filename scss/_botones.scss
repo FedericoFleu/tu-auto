@@ -1,0 +1,37 @@
+@import "colores";
+
+.btn {
+    color: $color1;
+    background-color: $color2;
+}
+
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: $color1;
+    border: 2px solid $color2;
+    padding: 12px 34px;
+    font-size: 15px;
+    font-weight: 600;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    animation-duration: 2.5s;
+}
+
+.hero-btn:hover{
+    border: 2px solid $color1;
+    background: #c4d3df;
+    transition: 1s;
+}
+
+.red-btn{
+    border: 2px solid $color;
+    background: transparent;
+    color: black;
+}
+
+.red-btn:hover{
+    color:$color1;
+    background:$color2;
+}
