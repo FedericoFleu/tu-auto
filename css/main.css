@@ -103,7 +103,7 @@ h6 {
 .choose .choose_box {
   text-align: center; }
 
-.choose .choose_box {
+.choose .choose_box span {
   color: #FEFBF3;
   background-color: #171717;
   border-radius: 100px;
@@ -113,11 +113,11 @@ h6 {
   font-size: 20px;
   margin-bottom: 20px; }
 
-.choose .choose_box {
-  color: #21209C;
+.choose .choose_box span {
+  color: #FEFBF3;
   font-size: 16px;
   line-height: 28px;
-  margin-bottom: 30px; }
+  margin-bottom: 20px; }
 
 #testimonios {
   margin: 70px 0; }

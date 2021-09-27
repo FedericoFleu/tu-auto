@@ -13,7 +13,7 @@
     text-align: center;
 }
 
-.choose .choose_box {
+.choose .choose_box span{
     color: $color2;
     background-color: $color1;
     border-radius: 100px;
@@ -24,9 +24,9 @@
     margin-bottom: 20px;
 }
 
-.choose .choose_box  {
-    color: $color;
+.choose .choose_box span {
+    color: $color2;
     font-size: 16px;
     line-height: 28px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
