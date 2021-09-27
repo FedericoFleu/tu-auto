@@ -20,7 +20,7 @@
 }
 
 .hero-btn:hover{
-    border: 2px solid $color1;
+    border: 2px solid $color;
     background: #c4d3df;
     transition: 1s;
 }
@@ -32,6 +32,6 @@
 }
 
 .red-btn:hover{
-    color:$color1;
-    background:$color2;
+    color:$color2;
+    background:$color1;
 }
