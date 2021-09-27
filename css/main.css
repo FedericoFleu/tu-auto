@@ -213,11 +213,11 @@ h3 {
 .red-btn {
   border: 2px solid #21209C;
   background: transparent;
-  color: black; }
+  color: #171717; }
 
 .red-btn:hover {
   color: #171717;
-  background: #FEFBF3; }
+  background: #EFEFEF; }
 
 .footer {
   width: 100%;

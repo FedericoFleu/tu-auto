@@ -28,10 +28,10 @@
 .red-btn{
     border: 2px solid $color;
     background: transparent;
-    color: black;
+    color: $color1;
 }
 
 .red-btn:hover{
     color:$color1;
-    background:$color2;
+    background:$color4;
 }
