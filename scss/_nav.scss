@@ -2,7 +2,7 @@
 
 a {
     text-decoration: none;
-    color: $color1;
+    color: $color1 !important;
 }
 
 .animacion1{
@@ -72,11 +72,4 @@ b{
     font-weight: 600;
 }
 
-.logoAuto{
-    font-size: 40px;
-    color: $color1;
-}
 
-.logoAuto:hover{
-    transform: translateY(-10px);
-}

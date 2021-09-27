@@ -8,7 +8,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #171717; }
+  color: #171717 !important; }
 
 .animacion1 {
   animation-duration: 0.5s; }
@@ -63,13 +63,6 @@ h5:hover {
 b {
   color: #21209C;
   font-weight: 600; }
-
-.logoAuto {
-  font-size: 40px;
-  color: #171717; }
-
-.logoAuto:hover {
-  transform: translateY(-10px); }
 
 h1 {
   color: #21209C;
