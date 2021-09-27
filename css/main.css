@@ -119,30 +119,43 @@ h6 {
   line-height: 28px;
   margin-bottom: 20px; }
 
-#testimonios {
-  margin: 70px 0; }
-
 .testimonials {
-  margin-top: 20px;
-  margin-bottom: 50px;
-  margin: 20px;
+  width: 80%;
+  margin: auto;
+  padding-top: 100px;
   text-align: center; }
 
-.testimonials img {
-  height: 100px;
-  width: 100px;
-  border-radius: 50%;
-  margin: 0 10px; }
+.testimonials-col {
+  flex-basis: 44%;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  text-align: left;
+  background: rgba(196, 211, 223, 0.4);
+  padding: 25px;
+  cursor: pointer;
+  display: flex; }
 
-.usario {
-  display: inline-block;
-  font-size: 18px; }
+.testimonials-col img {
+  height: 70px;
+  margin-left: 5px;
+  margin-right: 30px;
+  border-radius: 50%; }
 
-.text {
-  margin: 20px;
-  color: #171717;
-  font-size: 20px;
-  text-align: center; }
+.testimonials-col p {
+  padding: 0;
+  text-align: left; }
+
+.texto-testimonios {
+  padding: 0;
+  text-align: left; }
+
+.testimonials-col h6 {
+  margin-top: 15px;
+  text-align: left;
+  font-size: 20px; }
+
+.testimonials-col .fas {
+  color: #f44336; }
 
 h3 {
   color: #21209C;
@@ -298,8 +311,8 @@ h4 {
     text-align: center; }
   .card {
     margin: 12px; }
-  .testimonials {
-    border-block: 2px solid #21209C; }
+  /* .testimonials{
+        border-block: 2px solid $color;}*/
   .vendedores {
     width: 250px;
     height: 150px;
