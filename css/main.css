@@ -330,7 +330,8 @@ h4 {
   .card {
     margin: 15px; }
   .row {
-    flex-direction: column; }
+    flex-direction: column;
+    margin: 10px; }
   .vendedores {
     width: 250px;
     height: 150px;
