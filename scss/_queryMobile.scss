@@ -25,14 +25,17 @@
         text-align: center;
     }
 
-    .card {
-        margin: 12px;
-    }
-
     .row{
         flex-direction: column;
     }
 
+    .card {
+        margin: 12px;
+    }
+
+    .cards {
+        margin-left: 40px;
+    }
 
     .vendedores {
        width: 250px;
