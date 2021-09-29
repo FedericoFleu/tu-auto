@@ -3,9 +3,8 @@
 h3{
     color: $color;
     font-size: 20px;
-    margin: 8px;
     text-align: center;
-    font-weight: 500;
+    font-weight: 550;
 }
 
 .row{
@@ -19,6 +18,10 @@ h3{
     text-align: center;
     padding-top: 20px;
     margin-top: 20px;
+}
+
+.card {
+    margin: 10px;
 }
 
 .card:hover{

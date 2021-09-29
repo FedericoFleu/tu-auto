@@ -64,6 +64,9 @@ b {
   color: #21209C;
   font-weight: 600; }
 
+.carousel {
+  margin-top: 10px; }
+
 h1 {
   color: #21209C;
   text-align: center;
@@ -158,9 +161,8 @@ h6 {
 h3 {
   color: #21209C;
   font-size: 20px;
-  margin: 8px;
   text-align: center;
-  font-weight: 500; }
+  font-weight: 550; }
 
 .row {
   display: flex;
@@ -172,6 +174,9 @@ h3 {
   text-align: center;
   padding-top: 20px;
   margin-top: 20px; }
+
+.card {
+  margin: 10px; }
 
 .card:hover {
   box-shadow: 6px 6px 40px 6px #3f3f3f; }
