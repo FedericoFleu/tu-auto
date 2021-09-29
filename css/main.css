@@ -328,10 +328,9 @@ h4 {
     margin-top: 10px;
     text-align: center; }
   .card {
-    margin: 15px; }
+    margin: 12px; }
   .row {
-    flex-direction: column;
-    margin: 10px; }
+    flex-direction: column; }
   .vendedores {
     width: 250px;
     height: 150px;
