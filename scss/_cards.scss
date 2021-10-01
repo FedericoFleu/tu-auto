@@ -1,7 +1,7 @@
 @import "colores";
 
 h3{
-    color: $color;
+    color: $color5;
     font-size: 20px;
     text-align: center;
     font-weight: 550;
@@ -23,6 +23,7 @@ h3{
 
 .card {
     margin: 10px;
+    background-color: $color7;
 }
 
 .card:hover{

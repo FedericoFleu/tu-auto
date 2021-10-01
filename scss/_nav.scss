@@ -29,7 +29,7 @@ a {
     position: sticky;
     top: 0;
     z-index: 5;
-    background-color: rgba(39, 28, 136, 0.425);
+    background-color: $color6;
 }
 
 #navbarNav ul li::after{
@@ -57,7 +57,7 @@ a {
 }
 
 h5 {
-    color: $color1;
+    color: $color9;
     margin: 10px;
     font-size: 30px;
     font-weight: 600;
@@ -68,7 +68,7 @@ h5:hover {
 }
 
 b{
-    color: $color;
+    color: $color9;
     font-weight: 600;
 }
 
