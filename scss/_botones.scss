@@ -20,18 +20,18 @@
 }
 
 .hero-btn:hover{
-    border: 2px solid $color;
+    border: 2px solid $color1;
     background: #c4d3df;
     transition: 1s;
 }
 
 .red-btn{
-    border: 2px solid $color;
+    border: 2px solid $color9;
     background: transparent;
     color: $color1;
 }
 
 .red-btn:hover{
-    color:$color2;
-    background:$color1;
+    color:$color1;
+    background:$color2;
 }

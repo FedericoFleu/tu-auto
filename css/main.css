@@ -226,18 +226,18 @@ h3 {
   animation-duration: 2.5s; }
 
 .hero-btn:hover {
-  border: 2px solid #21209C;
+  border: 2px solid #171717;
   background: #c4d3df;
   transition: 1s; }
 
 .red-btn {
-  border: 2px solid #21209C;
+  border: 2px solid #FFC069;
   background: transparent;
   color: #171717; }
 
 .red-btn:hover {
-  color: #FEFBF3;
-  background: #171717; }
+  color: #171717;
+  background: #FEFBF3; }
 
 .footer {
   width: 100%;
@@ -283,13 +283,13 @@ h4 {
 
 .contact-col div .fas {
   font-size: 30px;
-  color: #21209C;
+  color: #FFC069;
   margin: 10px;
   margin-right: 30px; }
 
 .contact-col div .far {
   font-size: 30px;
-  color: #21209C;
+  color: #FFC069;
   margin: 10px;
   margin-right: 30px; }
 
