@@ -1,28 +1,29 @@
 @import "colores";
+@import "sizes";
 
 .footer{
     width: 100%;
     text-align: center;
-    padding: 20px 0;
+    padding: $sizes12 0;
     margin-top: auto;
 }
 
 h4 {
-    font-size: 27px;
+    font-size: $sizes15;
 }
 
 .footer h4{
-    margin-bottom: 5px;
+    margin-bottom: $sizes3;
     font-weight: 600;
     color: $color9;
 }
 
 .icons .fab{
     color: $color1;
-    margin: 0 13px;
+    margin: 0 $sizes7;
     cursor: pointer;
-    padding: 18px 0;
-    font-size: 35px;
+    padding: $sizes11 0;
+    font-size: $sizes19;
 }
 
 .icons .fab:hover{
@@ -32,6 +33,6 @@ h4 {
 }
 
 #copy {
-    font-size: 20px;
+    font-size: $sizes12;
 }
 

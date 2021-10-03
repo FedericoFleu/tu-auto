@@ -1,13 +1,15 @@
+@import "sizes";
+
 .about-us{
     width: 80%;
     margin: auto;
-    padding-top: 80px;
-    padding-bottom: 50px;
+    padding-top: $sizes23;
+    padding-bottom: $sizes21;
 }
 
 .about-col{
     flex-basis: 48%;
-    padding: 30px 2px;
+    padding: $sizes17 $sizes1;
 }
 
 .about-col img{
@@ -19,12 +21,12 @@
 }
 
 .about-col p{
-    padding: 15px 0 25px;
+    padding: $sizes8 0 $sizes13;
 }
 
 .course{
     width: 80%;
     margin: auto;
     text-align: center;
-    padding-top: 100px;
+    padding-top: $sizes24;
 }

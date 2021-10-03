@@ -1,27 +1,28 @@
 @import "colores";
+@import "sizes";
 
 .testimonials{
     width: 80%;
     margin: auto;
-    padding-top: 100px;
+    padding-top: $sizes24;
     text-align: center;
 }
 
 .testimonials-col{
     flex-basis: 44%;
-    border-radius: 10px;
+    border-radius: $sizes5;
     margin-bottom: 5%;
     text-align: left;
     background: rgba(196, 211, 223, 0.4);
-    padding: 25px;
+    padding: $sizes13;
     cursor: pointer;
     display: flex;
 }
 
 .testimonials-col img{
-    height: 70px;
-    margin-left: 5px;
-    margin-right: 30px;
+    height: $sizes22;
+    margin-left: $sizes3;
+    margin-right: $sizes17;
     border-radius: 50%;
 }
 
@@ -34,9 +35,9 @@
 }
 
 .testimonials-col h6{
-    margin-top: 15px;
+    margin-top: $sizes8;
     text-align: left;
-    font-size: 20px;
+    font-size: $sizes12;
 }
 
 .testimonials-col .fas{
