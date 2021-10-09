@@ -58,7 +58,18 @@ h5 {
   font-weight: 600; }
 
 h5:hover {
-  transform: translateY(-10px); }
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2); }
+
+h5 {
+  overflow: hidden; }
+
+h5:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2); }
+
+h5 {
+  overflow: hidden; }
 
 b {
   color: #FFC069;
