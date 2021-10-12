@@ -64,13 +64,6 @@ h5:hover {
 h5 {
   overflow: hidden; }
 
-h5:hover {
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2); }
-
-h5 {
-  overflow: hidden; }
-
 b {
   color: #FFC069;
   font-weight: 600; }
@@ -363,5 +356,23 @@ h4 {
   .contact-col input, .contact-col textarea {
     width: 100%; }
   .maps iframe {
-    height: 230px;
+    height: 300px;
     width: 300px; } }
+
+@media only screen and (min-width: 768px) and (max-width: 1234px) {
+  .contenedor {
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-gap: 20px;
+    grid-template-areas: "header" "nav" "section" "img" "footer"; }
+  header {
+    grid-area: header; }
+  nav {
+    grid-area: nav; }
+  section {
+    grid-area: section; }
+  footer {
+    grid-area: footer; }
+  .maps iframe {
+    height: 400px;
+    width: 800px; } }
